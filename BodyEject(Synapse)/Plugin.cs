@@ -1,4 +1,4 @@
-﻿using Synapse.Api.Plugin;
+using Synapse.Api.Plugin;
 
 namespace BodyEject_Synapse_
 {
@@ -8,9 +8,15 @@ namespace BodyEject_Synapse_
     LoadPriority = 0,
     Name = "BodyEject",
     SynapseMajor = 2,
+<<<<<<< HEAD
     SynapseMinor = 4,
     SynapsePatch = 2,
     Version = "1.2.0"
+=======
+    SynapseMinor = 3,
+    SynapsePatch = 1,
+    Version = "1.0.1"
+>>>>>>> d188208186ea123f22c9d94afe97ce524dedf20e
 )]
     class Plugin : AbstractPlugin
     {
