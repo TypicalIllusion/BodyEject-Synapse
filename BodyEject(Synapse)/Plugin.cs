@@ -8,9 +8,9 @@ namespace BodyEject_Synapse_
     LoadPriority = 0,
     Name = "BodyEject",
     SynapseMajor = 2,
-    SynapseMinor = 3,
-    SynapsePatch = 1,
-    Version = "1.0.0"
+    SynapseMinor = 4,
+    SynapsePatch = 2,
+    Version = "1.2.0"
 )]
     class Plugin : AbstractPlugin
     {

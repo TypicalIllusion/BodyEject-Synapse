@@ -21,7 +21,8 @@ namespace BodyEject_Synapse_
                 }
                 else
                 {
-                    ev.Victim.Inventory.DropAll();
+                    if (!Plugin.Config.RemoveItems)
+                        ev.Victim.Inventory.DropAll();
                 }
                 foreach (Room room in Map.Get.Rooms)
                 {
